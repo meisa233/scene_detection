@@ -10,5 +10,8 @@
 场景的定义：Formally, scenes are defined as a sequence of semantically related and temporally adjacent shots depicting a high-level concept or story.
 聚类方法的坏处：忽略了时间一致性(temporal consistency)，容易将不连续的镜头聚类成一个场景
 >
+这篇论文将将场景分割问题看做最优分割任务（使用神经网络更好地捕捉语义）
+>
+Overview:给定视频，运行镜头边界检测算法，并且从每个镜头中提取到有表现力的特征向量(extract a representative feature vector from each shot)，从而能够计算镜头之间的距离。
 TODO
 >
