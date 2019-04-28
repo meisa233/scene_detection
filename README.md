@@ -12,6 +12,11 @@
 >
 这篇论文将将场景分割问题看做最优分割任务（使用神经网络更好地捕捉语义）
 >
-Overview:给定视频，运行镜头边界检测算法，并且从每个镜头中提取到有表现力的特征向量(extract a representative feature vector from each shot)，从而能够计算镜头之间的距离。
+Overview:给定视频，运行镜头边界检测算法，并且从每个镜头中提取到有表现力的特征向量(extract a representative feature vector from each shot)，从而能够计算镜头之间的距离。我们提出Normalized cost functionyong将其看做是一个优化问题。通过最小化cost function从而获得将场景的最优分割。
+>
+这个方法是**parameter-free**的，从而避免了需要根据不同内容微调的情况。
+>
+#### PREVIOUS WORK
+聚类方法：使用标准聚类技术对镜头（描述符）进行聚类；图形方法：将视频看做连通图，并采用Graph Cuts或者Dominant sets的方法检测视频的场景边界。
 TODO
 >
