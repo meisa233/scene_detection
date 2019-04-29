@@ -30,3 +30,4 @@ Overview:给定视频，运行镜头边界检测算法，并且从每个镜头�
 >
 #### 4. PROBLEM DEFINITION AND NOTATION
 我们将要解决的问题看做【sequential grouping problem】，而使用的特征可以使多样的，比如直方图/high-level visual concepts/音频特征/多模联合等。
+##### 4.1 Notation and Definitions
